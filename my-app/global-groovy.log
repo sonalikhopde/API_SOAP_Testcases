@@ -1,0 +1,5 @@
+2020-12-09 10:34:27,951 INFO  [log] 
+2020-12-09 10:34:27,959 INFO  [log] ${#TestCase#CustID}
+2020-12-09 10:34:27,964 INFO  [log] 
+2020-12-09 10:34:27,968 INFO  [log] 
+2020-12-09 10:34:45,669 INFO  [log] Staus = FINISHED, time taken for execution is 16331 in ms

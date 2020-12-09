@@ -1,0 +1,59 @@
+2020-12-09 10:33:51,715 WARN  [SoapUI] Missing folder [C:\Users\SONALIKHOPDE\Desktop\API Testing Code\my-app\ext] for external libraries
+2020-12-09 10:33:52,097 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\SONALIKHOPDE\soapui-settings.xml]
+2020-12-09 10:33:53,821 INFO  [WsdlProject] Loaded project from [file:/C:/Users/SONALIKHOPDE/Desktop/API%20Testing%20Code/my-app/SOAP-Project-soapui-project.xml]
+2020-12-09 10:33:54,661 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SOAP Project]
+2020-12-09 10:33:54,663 INFO  [SoapUITestCaseRunner] Running Project [SOAP Project], runType = SEQUENTIAL
+2020-12-09 10:33:54,723 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Using Prop and PropTransfer]
+2020-12-09 10:33:54,748 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 10:33:54,822 INFO  [SoapUITestCaseRunner] running step [Property Transfer 1]
+2020-12-09 10:33:55,200 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to create a new customer]
+2020-12-09 10:33:56,753 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:33:56,753 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-12-09 10:33:56,785 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get list of all customers]
+2020-12-09 10:34:04,321 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:04,322 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get customer by id]
+2020-12-09 10:34:04,985 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:04,985 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to delete customer by id]
+2020-12-09 10:34:05,985 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:05,989 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Using Prop and PropTransfer], time taken: 11200ms, status: FINISHED
+2020-12-09 10:34:05,991 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Using Prop and Prop Expansion]
+2020-12-09 10:34:05,992 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 10:34:05,994 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to create a new customer]
+2020-12-09 10:34:09,067 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:09,067 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get list of all customers]
+2020-12-09 10:34:24,882 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:24,882 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get customer by id]
+2020-12-09 10:34:25,867 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:25,868 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to delete customer by id]
+2020-12-09 10:34:26,510 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:26,511 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Using Prop and Prop Expansion], time taken: 20510ms, status: FINISHED
+2020-12-09 10:34:26,515 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Using Groovy]
+2020-12-09 10:34:26,515 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 10:34:26,516 INFO  [SoapUITestCaseRunner] running step [Create Cust]
+2020-12-09 10:34:27,162 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:27,163 INFO  [SoapUITestCaseRunner] running step [GetCustId]
+2020-12-09 10:34:27,951 INFO  [log] 
+2020-12-09 10:34:27,959 INFO  [log] ${#TestCase#CustID}
+2020-12-09 10:34:27,964 INFO  [log] 
+2020-12-09 10:34:27,968 INFO  [log] 
+2020-12-09 10:34:28,002 INFO  [SoapUITestCaseRunner] running step [Get cust by id]
+2020-12-09 10:34:28,623 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:28,625 INFO  [SoapUITestCaseRunner] running step [Delete customer by id]
+2020-12-09 10:34:29,224 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:29,225 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Using Groovy], time taken: 2701ms, status: FINISHED
+2020-12-09 10:34:29,231 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Calling Prop Expansion using Groovy]
+2020-12-09 10:34:29,231 INFO  [SoapUITestCaseRunner] running step [Call Prop Expansion]
+2020-12-09 10:34:29,305 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Using Prop and Prop Expansion]
+2020-12-09 10:34:29,308 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 10:34:29,310 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to create a new customer]
+2020-12-09 10:34:30,086 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:30,088 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get list of all customers]
+2020-12-09 10:34:44,247 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:44,248 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to get customer by id]
+2020-12-09 10:34:44,914 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:44,915 INFO  [SoapUITestCaseRunner] running step [TO verify whether application allows to delete customer by id]
+2020-12-09 10:34:45,657 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 10:34:45,659 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Using Prop and Prop Expansion], time taken: 16331ms, status: FINISHED
+2020-12-09 10:34:45,669 INFO  [log] Staus = FINISHED, time taken for execution is 16331 in ms
+2020-12-09 10:34:45,671 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Calling Prop Expansion using Groovy], time taken: 16436ms, status: FINISHED
+2020-12-09 10:34:45,676 INFO  [SoapUITestCaseRunner] Project [SOAP Project] finished with status [FINISHED] in 51003ms
